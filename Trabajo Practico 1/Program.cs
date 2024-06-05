@@ -34,13 +34,13 @@ class Program
         int ancho = bloque1.obtenerAncho();
         int alto = bloque1.obtenerAlto();
         int volumen = bloque1.obtenerVolumen();
-        int areaSuperficie = bloque1.obtenerArea();
+        int SuperficieArea = bloque1.obtenerArea();
 
         Console.WriteLine($"El bloque tiene {largo} cm de largo");
         Console.WriteLine($"El bloque tiene {ancho} cm de ancho");
         Console.WriteLine($"El bloque tiene {alto} cm de alto");
         Console.WriteLine($"El bloque tiene un volumen de {volumen} cm³");
-        Console.WriteLine($"El bloque tiene un area de {areaSuperficie} cm²");
+        Console.WriteLine($"El bloque tiene un area de {SuperficieArea} cm²");
 
         Console.WriteLine("\n\n___________________FIN________________________________\n");
     }
