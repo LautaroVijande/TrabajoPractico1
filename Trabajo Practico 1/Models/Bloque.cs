@@ -40,8 +40,8 @@ namespace Trabajo_Practico_1.Models
             int superficie1 = (largo * ancho) * 2;
             int superficie2 = (ancho * alto) * 2;
             int superficie3 = (alto * largo) * 2;
-            int superficieTotal = superficie1 + superficie2 + superficie3;
-            return superficieTotal;
+            int Totalsuperficie = superficie1 + superficie2 + superficie3;
+            return Totalsuperficie;
         }
     }
 }
